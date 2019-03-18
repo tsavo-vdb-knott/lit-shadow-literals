@@ -18,14 +18,15 @@ export const noShadow = css`
 `;
 
 export const smallShadowDarkTheme = css`
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 6px rgba(0, 0, 0, 0.25);
+box-shadow: 0 12px 18px rgba(0,0,0,5), 0 5px 5px rgba(0,0,0,5);
 `;
 
 export const mediumShadowDarkTheme = css`
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.5);
+box-shadow: 0 20px 28px rgba(0,0,0,5), 0 10px 10px rgba(0,0,0,5);
+}
 `;
 
 export const largeShadowDarkTheme = css`
-  box-shadow: 0 19px 38px rgba(0,0,0,0.5), 0 15px 12px rgba(0,0,0, 0.5);
+box-shadow: 0 30px 38px rgba(0,0,0,5), 0 20px 25px rgba(0,0,0,5);
 }
 `;
